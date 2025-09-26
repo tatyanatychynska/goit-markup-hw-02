@@ -24,43 +24,44 @@ address {
 /* #endregion Base */
 
 /* #region Header */
-.menu-item {
+.menu-item-ref {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-item a:hover,
-.menu-item a:focus {
+.menu-item-ref:hover,
+.menu-item-ref:focus {
   color: #404bbf;
 }
-.menu-item a:active {
+.menu-item-ref:active {
   color: #404bbf;
   text-decoration: underline;
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-
-.logo span {
   color: #4d5ae5;
 }
 
-.menu-address a {
+.logo-header-text {
+  color: #2e2f42;
+}
+
+.menu-address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.menu-address a:hover,
-.menu-address a:focus {
+.menu-address:hover,
+.menu-address:focus {
   color: #404bbf;
 }
 /* #endregion Header */
@@ -73,7 +74,7 @@ address {
 .main-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -119,7 +120,7 @@ address {
 }
 .section-header {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -158,6 +159,6 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.logo-footer {
+.logo-footer-text {
   color: #f4f4fd;
 }
