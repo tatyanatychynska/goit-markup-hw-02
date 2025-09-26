@@ -124,6 +124,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 /* .team-member {
 } */
@@ -147,7 +148,9 @@ address {
 
 .team-member-img {
 }
-
+.portfolio {
+  background-color: #ffffff;
+}
 /* #endregion Team & Portfolio section */
 
 .footer {
